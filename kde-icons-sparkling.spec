@@ -2,7 +2,7 @@
 %define theme_name	sparkling
 %define version		0.5
 %define name		%{base_name}-%{theme_name}
-%define release		%mkrel 3
+%define release		%mkrel 4
 
 Name:		%{name}
 Version:	%{version}
@@ -12,7 +12,7 @@ License:	Artistic
 Group:		Graphical desktop/KDE
 Source:		%{theme_name}-%{version}.tar.bz2
 URL:		http://kde-look.org/content/show.php?content=9245
-Requires:	kdebase
+Requires:	kdebase-progs
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
