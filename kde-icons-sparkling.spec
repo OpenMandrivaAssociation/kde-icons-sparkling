@@ -67,3 +67,43 @@ rm -rf %buildroot
 %defattr(-,root,root)
 %doc License.txt changes.txt
 %{_iconsdir}/%{theme_name}-%{version}/*
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0.5-9mdv2011.0
++ Revision: 619903
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 11 2009 Thierry Vignaud <tv@mandriva.org> 0.5-8mdv2010.0
++ Revision: 438085
+- rebuild
+
+* Sun Mar 22 2009 Nicolas Lécureuil <nlecureuil@mandriva.com> 0.5-7mdv2009.1
++ Revision: 360339
+- Fix Requires
+
+* Fri Jul 25 2008 Thierry Vignaud <tv@mandriva.org> 0.5-6mdv2009.0
++ Revision: 247632
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 0.5-4mdv2008.1
++ Revision: 140853
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+  + Nicolas Lécureuil <nlecureuil@mandriva.com>
+    - Fix Requires (Bug #33727)
+    - Import kde-icons-sparkling
+
+
+
+* Sat Jul 8 2006 Sebastien Savarin <plouf@mandriva.org> 0.5-3mdv2007.0
+-rebuild
+
+* Wed May  4 2005 Sebastien Savarin <plouf@mandriva.org> 0.5-2mdk
+- fix rpmlint errors wrong-script-end-of-line-encoding
+ 
+* Wed Feb 07 2005 Nicolas L�cureuil <neoclust@mandrake.org> 0.5-1mdk
+- first release from the king of icons ---> Sebastien Savarin 
