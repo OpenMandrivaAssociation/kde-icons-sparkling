@@ -11,7 +11,7 @@ Summary:	Icon themes for kde
 License:	Artistic
 Group:		Graphical desktop/KDE
 Source:		%{theme_name}-%{version}.tar.bz2
-URL:		http://kde-look.org/content/show.php?content=9245
+URL:		https://kde-look.org/content/show.php?content=9245
 Requires:	kdebase3-progs
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-buildroot
